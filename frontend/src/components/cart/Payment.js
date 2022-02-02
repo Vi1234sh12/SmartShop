@@ -126,7 +126,6 @@ const Payment = ({ history }) => {
             <MetaData title={'Payment'} />
 
             <CheckoutSteps shipping confirmOrder payment />
-
             <div className="row wrapper">
                 <div className="col-10 col-lg-5">
                     <form className="shadow-lg" onSubmit={submitHandler}>
@@ -140,7 +139,6 @@ const Payment = ({ history }) => {
                                 options={options}
                             />
                         </div>
-
                         <div className="form-group">
                             <label htmlFor="card_exp_field">Card Expiry</label>
                             <CardExpiryElement

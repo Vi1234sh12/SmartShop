@@ -60,6 +60,7 @@ function App() {
       const { data } = await axios.get('/api/v1/stripeapi');
 
       setStripeApiKey(data.stripeApiKey)
+      
     }
 
     getStripApiKey();

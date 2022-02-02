@@ -1,3 +1,12 @@
+:root{
+  --mainDark:#232f3e;
+  --mainGrey: rgba(109,109,109);
+  --mainLightGray: rgba(172,172,172);
+  --mainWhite:#fff;
+  --mainBlue:#007bff;
+}
+
+
 html,
 body {
   font-family: 'Amazon Ember';
